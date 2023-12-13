@@ -18,40 +18,32 @@ All the images are from [bapuartcollection](https://bapuartcollection.com/) and 
 
 ## Example predictions
 
-<div style="display: flex;">
-  <div style="flex: 33.33%; padding: 5px;">
-    <img src="assets/out-1.png" style="width: 100%; border-radius: 8px;">
-        <p class="prompt" style="width: 100%">bapubomma, Lord Rama and Sita walking together in a beautiful south Indian village near Godavari river, clear faces</p>
-  </div>
-  <div style="flex: 33.33%; padding: 5px;">
-    <img src="assets/out-2.png" style="width: 100%; border-radius: 8px;">
-        <p class="prompt" style="width: 100%">bapubomma, two sisters walking together in a beautiful south French village, beautiful village, river, clear faces</p>
-  </div>
-  <div style="flex: 33.33%; padding: 5px;">
-      <img src="assets/out-3.png" style="width: 100%; border-radius: 8px;">
-        <p class="prompt" style="width: 100%">bapubomma, two brothers walking together in a beautiful south Swiss village, beautiful village, river, clear faces</p>
-    </div>
-</div>
-<div style="display: flex;">
-  <div style="flex: 33.33%; padding: 5px;">
-    <img src="assets/out-4.png" style="width: 100%; border-radius: 8px;">
-        <p class="prompt" style="width: 100%">bapubomma, two sisters walking together in a beautiful south Swiss village, beautiful village, river, clear faces</p>
-  </div>
-  <div style="flex: 33.33%; padding: 5px;">
-    <img src="assets/out-5.png" style="width: 100%; border-radius: 8px;">
-        <p class="prompt" style="width: 100%">bapubomma, two sisters walking together in a beautiful south India village, beautiful village, river, clear faces, no face deformities, perfect human structure, artistic illustrations, monochrome, black and white</p>
-  </div>
-    <div style="flex: 33.33%; padding: 5px;">
-        <img src="assets/out-6.png" style="width: 100%; border-radius: 8px;">
-        <p class="prompt" style="width: 100%">bapubomma, A car and a bike going towards Taj Mahal on a wide and long road with mountains behind Taj Mahal, no street lights, 1940s style, lush trees and beautiful flowers</p>
-    </div>
-</div>
-<div style="display: flex;">
-  <div style="flex: 33.33%; padding: 5px;">
-    <img src="assets/out-7.png" style="width: 33%; border-radius: 8px;">
-        <p class="prompt" style="width: 33%">bapubomma, two sisters walking together in a beautiful south India village, beautiful village, river, clear faces, artistic illustrations</p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="assets/out-1.png" alt="Image 1" width="300"></td>
+    <td><img src="assets/out-2.png" alt="Image 2" width="300"></td>
+    <td><img src="assets/out-3.png" alt="Image 3" width="300"></td>
+    <td><img src="assets/out-4.png" alt="Image 4" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">bapubomma, Lord Rama and Sita walking together in a beautiful south Indian village near Godavari river, clear faces</td>
+    <td align="center">bapubomma, two sisters walking together in a beautiful south French village, beautiful village, river, clear faces</td>
+    <td align="center">bapubomma, two brothers walking together in a beautiful south Swiss village, beautiful village, river, clear faces</td>
+    <td align="center">bapubomma, two sisters walking together in a beautiful south Swiss village, beautiful village, river, clear faces</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td><img src="assets/out-5.png" alt="Image 5" width="300"></td>
+    <td><img src="assets/out-6.png" alt="Image 6" width="300"></td>
+    <td><img src="assets/out-7.png" alt="Image 7" width="300"></td>
+  </tr>
+  <tr>
+    <td align="center">bapubomma, two sisters walking together in a beautiful south India village, beautiful village, river, clear faces, no face deformities, perfect human structure, artistic illustrations, monochrome, black and white</td>
+    <td align="center">bapubomma, A car and a bike going towards Taj Mahal on a wide and long road with mountains behind Taj Mahal, no street lights, 1940s style, lush trees and beautiful flowers</td>
+    <td align="center">bapubomma, two sisters walking together in a beautiful south India village, beautiful village, river, clear faces, artistic illustrations</td>
+  </tr>
+</table>
 
 ## How to use the model?
 
