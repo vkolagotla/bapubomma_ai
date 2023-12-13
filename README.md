@@ -20,36 +20,36 @@ All the images are from [bapuartcollection](https://bapuartcollection.com/) and 
 
 <div style="display: flex;">
   <div style="flex: 33.33%; padding: 5px;">
-    <img src="assets/out-1.png" style="width: 50%; border-radius: 8px;">
-        <p class="prompt" style="width: 50%">bapubomma, Lord Rama and Sita walking together in a beautiful south Indian village near Godavari river, clear faces</p>
+    <img src="assets/out-1.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, Lord Rama and Sita walking together in a beautiful south Indian village near Godavari river, clear faces</p>
   </div>
   <div style="flex: 33.33%; padding: 5px;">
-    <img src="assets/out-2.png" style="width: 50%; border-radius: 8px;">
-        <p class="prompt" style="width: 50%">bapubomma, two sisters walking together in a beautiful south French village, beautiful village, river, clear faces</p>
+    <img src="assets/out-2.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, two sisters walking together in a beautiful south French village, beautiful village, river, clear faces</p>
   </div>
   <div style="flex: 33.33%; padding: 5px;">
-      <img src="assets/out-3.png" style="width: 50%; border-radius: 8px;">
-        <p class="prompt" style="width: 50%">bapubomma, two brothers walking together in a beautiful south Swiss village, beautiful village, river, clear faces</p>
+      <img src="assets/out-3.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, two brothers walking together in a beautiful south Swiss village, beautiful village, river, clear faces</p>
     </div>
 </div>
 <div style="display: flex;">
   <div style="flex: 33.33%; padding: 5px;">
-    <img src="assets/out-4.png" style="width: 50%; border-radius: 8px;">
-        <p class="prompt" style="width: 50%">bapubomma, two sisters walking together in a beautiful south Swiss village, beautiful village, river, clear faces</p>
+    <img src="assets/out-4.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, two sisters walking together in a beautiful south Swiss village, beautiful village, river, clear faces</p>
   </div>
   <div style="flex: 33.33%; padding: 5px;">
-    <img src="assets/out-5.png" style="width: 50%; border-radius: 8px;">
-        <p class="prompt" style="width: 50%">bapubomma, two sisters walking together in a beautiful south India village, beautiful village, river, clear faces, no face deformities, perfect human structure, artistic illustrations, monochrome, black and white</p>
+    <img src="assets/out-5.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, two sisters walking together in a beautiful south India village, beautiful village, river, clear faces, no face deformities, perfect human structure, artistic illustrations, monochrome, black and white</p>
   </div>
     <div style="flex: 33.33%; padding: 5px;">
-        <img src="assets/out-6.png" style="width: 50%; border-radius: 8px;">
-        <p class="prompt" style="width: 50%">bapubomma, A car and a bike going towards Taj Mahal on a wide and long road with mountains behind Taj Mahal, no street lights, 1940s style, lush trees and beautiful flowers</p>
+        <img src="assets/out-6.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, A car and a bike going towards Taj Mahal on a wide and long road with mountains behind Taj Mahal, no street lights, 1940s style, lush trees and beautiful flowers</p>
     </div>
 </div>
 <div style="display: flex;">
   <div style="flex: 33.33%; padding: 5px;">
-    <img src="assets/out-7.png" style="width: 17%; border-radius: 8px;">
-        <p class="prompt" style="width: 17%">bapubomma, two sisters walking together in a beautiful south India village, beautiful village, river, clear faces, artistic illustrations</p>
+    <img src="assets/out-7.png" style="width: 33%; border-radius: 8px;">
+        <p class="prompt" style="width: 33%">bapubomma, two sisters walking together in a beautiful south India village, beautiful village, river, clear faces, artistic illustrations</p>
   </div>
 </div>
 
