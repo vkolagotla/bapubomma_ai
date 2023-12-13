@@ -1,93 +1,72 @@
-# bapubomma_ai
+# Bapubomma AI
 
+A LoRA fine tuned version of SDXL trained on Bapu's art work.
 
+## About
 
-## Getting started
+I tried to create some images in Bapus art style, more commonly know as Bapubomma, from all the open source image gen models that are available for free users but it seems like they did not include his work in any of the training dataset. 
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+So here we are with a LoRA fine tuned version of SDXL trained on Bapu's work. In a way, this is a tribute to Bapu garu and his work which will now last for generations to come with models like this.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+Sathiraju Lakshminarayana (15 December 1933 – 31 August 2014) know as Bapu(బాపు), is a famous artist/illustrator from India whos work is very popular among Telugu and Tamil speaking population in India and elsewhere. He is mostly known for his work in the Telugu film industry and his books and paintings are very popular among the Telugu people, especially kids from 80s/90s.
 
-## Add your files
+**BapuBomma** is a word play on Bapu and Bomma(Doll) which usually means a beautiful girl/woman in Telugu.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## Data source
 
-```
-cd existing_repo
-git remote add origin https://gitlab.com/vkolagotla/bapubomma_ai.git
-git branch -M main
-git push -uf origin main
-```
+All the images are from [bapuartcollection](https://bapuartcollection.com/) and are used for educational purposes only.
 
-## Integrate with your tools
+## Example predictions
 
-- [ ] [Set up project integrations](https://gitlab.com/vkolagotla/bapubomma_ai/-/settings/integrations)
+<div style="display: flex;">
+  <div style="flex: 33.33%; padding: 5px;">
+    <img src="assets/out-1.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, Lord Rama and Sita walking together in a beautiful south Indian village near Godavari river, clear faces</p>
+  </div>
+  <div style="flex: 33.33%; padding: 5px;">
+    <img src="assets/out-2.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, two sisters walking together in a beautiful south French village, beautiful village, river, clear faces</p>
+  </div>
+  <div style="flex: 33.33%; padding: 5px;">
+      <img src="assets/out-3.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, two brothers walking together in a beautiful south Swiss village, beautiful village, river, clear faces</p>
+    </div>
+</div>
+<div style="display: flex;">
+  <div style="flex: 33.33%; padding: 5px;">
+    <img src="assets/out-4.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, two sisters walking together in a beautiful south Swiss village, beautiful village, river, clear faces</p>
+  </div>
+  <div style="flex: 33.33%; padding: 5px;">
+    <img src="assets/out-5.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, two sisters walking together in a beautiful south India village, beautiful village, river, clear faces, no face deformities, perfect human structure, artistic illustrations, monochrome, black and white</p>
+  </div>
+    <div style="flex: 33.33%; padding: 5px;">
+        <img src="assets/out-6.png" style="width: 100%; border-radius: 8px;">
+        <p class="prompt" style="width: 100%">bapubomma, A car and a bike going towards Taj Mahal on a wide and long road with mountains behind Taj Mahal, no street lights, 1940s style, lush trees and beautiful flowers</p>
+    </div>
+</div>
+<div style="display: flex;">
+  <div style="flex: 33.33%; padding: 5px;">
+    <img src="assets/out-7.png" style="width: 33%; border-radius: 8px;">
+        <p class="prompt" style="width: 33%">bapubomma, two sisters walking together in a beautiful south India village, beautiful village, river, clear faces, artistic illustrations</p>
+  </div>
+</div>
 
-## Collaborate with your team
+## How to use the model?
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+The repo contains a [zip file ](replicate/trained_models/lora_trained_model_bapubomma_v1.tar) of the latest model, v1, which contains a **embeddings.pti** file and a **lora.safetensors** file. These files can be used to generate images in Bapus style.
 
-## Test and Deploy
+You can also soon generate images using the model directly on [Replicate.com](https://replicate.com/vkolagotla/bapubomma_ai/versions/572fa33614e484e0d9f7707707d5e1f04f00c968b733c8609647d9a2d9a523ff) where the model is hosted(private for now).
 
-Use the built-in continuous integration in GitLab.
+## Future work
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+The main objective of this repo is to 1. Create a model that can generate images in Bapus style and 2. Learn more about LoRA as this is my first attempt at fine tuning an image model. So i will try to create a pipeline to automate the process of training and find a way to monitor training process and to find the best models with current data by tweaking the training parameters.
 
-***
+This is pretty much an initial train run just see how the model performs. I will try to add more images in the future and train further.
 
-# Editing this README
+There was no proper scientific evaluation of the model as for now and the model was just retrained based on visual inspection of the predictions. I will try to learn more about it and add it to the repo for future trainings.
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+## License/Credits
 
-## Suggestions for a good README
-
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
-
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
-
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+This is purely a personal project and is not intended for commercial use as the train data has a strict non-commercial license. All the images are from the [source](https://bapuartcollection.com/) and are used for educational purposes only.
