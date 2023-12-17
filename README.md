@@ -47,13 +47,13 @@ All the images are from [bapuartcollection](https://bapuartcollection.com/) and 
 
 ## How to use the model?
 
-The repo contains a [zip file ](replicate/trained_models/lora_trained_model_bapubomma_v1.tar) of the latest model, v1, which contains a **embeddings.pti** file and a **lora.safetensors** file. These files can be used to generate images in Bapus style.
+The git repo contains a zip file in `replicate/trained_models/` the latest model(v1), which contains a **embeddings.pti** file and a **lora.safetensors** file. These files can be used to generate images in Bapus style.
 
-You can also soon generate images using the model directly on [Replicate.com](https://replicate.com/vkolagotla/bapubomma_ai/versions/572fa33614e484e0d9f7707707d5e1f04f00c968b733c8609647d9a2d9a523ff) where the model is hosted(private for now).
+You can also soon generate images using the model directly on [Replicate.com](https://replicate.com/vkolagotla/bapubomma_ai/versions/572fa33614e484e0d9f7707707d5e1f04f00c968b733c8609647d9a2d9a523ff) where the model is hosted.
 
 ## Future work
 
-The main objective of this repo is to 1. Create a model that can generate images in Bapus style and 2. Learn more about LoRA as this is my first attempt at fine tuning an image model. So i will try to create a pipeline to automate the process of training and find a way to monitor training process and to find the best models with current data by tweaking the training parameters.
+The main objective of this repo is to **1.** Create a model that can generate images in Bapus style and **2.** Learn more about LoRA as this is my first attempt at fine tuning an image model. So i will try to create a pipeline to automate the process of training and find a way to monitor training process and to find the best models with current data by tweaking the training parameters.
 
 This is pretty much an initial train run just see how the model performs. I will try to add more images in the future and train further.
 
