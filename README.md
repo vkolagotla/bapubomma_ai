@@ -56,7 +56,7 @@ All the images are from [bapuartcollection](https://bapuartcollection.com/) and 
 
 The git repo contains a zip file in `replicate/trained_models/` for the latest model(v1.5), which contains a **embeddings.pti** file and a **lora.safetensors** file. These files can be used to generate images in Bapus style.
 
-You can also soon generate images using the model directly on [Replicate.com](https://replicate.com/vkolagotla/bapubomma_ai/versions/572fa33614e484e0d9f7707707d5e1f04f00c968b733c8609647d9a2d9a523ff) where the model is hosted. You need to signin with github to use the model.
+You can also soon generate images using the model directly on [Replicate.com](https://replicate.com/vkolagotla/bapubomma_ai/versions/b6f5a122638ad602aad03838b2f186222f3e47e8edd282ba8332e7ee653e3e1a) where the model is hosted. You need to signin with github to use the model.
 
 ## Future work
 
