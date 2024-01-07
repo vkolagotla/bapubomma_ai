@@ -1,3 +1,5 @@
 replicate/trained_models/trained_model_bapubomma_ai_all_data_lr_4e4.tar
 replicate/trained_models/trained_model_bapubomma_ai_h_*
 replicate/.ipynb_checkpoints/*
+train_data/final_dataset/bapubomma_ai_final_train_dataset_v1/
+train_data/final_dataset/bapubomma_ai_final_train_dataset_v1_5/

@@ -1,4 +1,4 @@
-# Training data for BapuBomma AI LoRA based on SDXL v1.0
+# Training data for BapuBomma AI LoRA based on SDXL v1.5
 
 ## About
 
@@ -23,15 +23,64 @@ Several other images are also included in the dataset which are not part of the 
 
 ## Dataset creation
 
-After handpicking the best of all 3 books and from the other sources. The images were edidted to remove "noise" and to make the images more clear. 
+After handpicking the best of all 3 books and from the other sources. The images were edidted to remove "noise" and to make the images more clear.
 
-No resizing was done to the images except for cropping the images to remove the white space around the images in most of the images.
+Noise here is just random white space around the images and in some case some of the artifacts and texts in the images were removed to make the images more clear.
+
+No resizing was done to the images except for cropping the images to remove the white space around the images in most of the imagesin v1.
+
+V1.5 has images upscaled by 4x using [Playground AI](playgroundai.com).
 
 ## Dataset format
 
-A zip file is then created with all the images and uploaded to vkolagotla.gitlab.io pages on gitlab to make it publicly available as this repo is not public at the time of model training and i did not wanna set up public pages for this repo.
+A zip file is then created with all the images and uploaded to vkolagotla.gitlab.io pages on gitlab to make it publicly available.
 
+## Change log
+
+### v1.5
+After the results from v1 training, it was obvious that the data quality could make a significant difference in the model performance as the images are screenshots and very low in dimensions. 
+
+Here are the dimensions of top 3 images in v1 dataset: sorted by num of pixels, high to low
+
+```
+Width Height image_name
+1034 726 zimg_09.png
+1262 593 yimg_04.png
+693 591 zimg_13.png 
+```
+
+and the dimentions of last 3 images
+```
+Width Height image_name
+355 287 zimg_19.png
+193 236 zimg_18.png
+400 217 zimg_29.png
+```
+
+As you can see a lot of the images are very low in resolution and i think this could be the reason for the model to not perform as well as i hoped.
+
+So i used [Playground AI](playgroundai.com)(I think they use an upscaller from stability AI?) to upscale the images by 4x and removed some example as they did not look good after the upscaling.
+
+Here are the top and bottom 3 images dimensions after upscaling, v1.5 dataset: Width x Height
+
+```
+Width Height image_name
+4136 2904 zimg_09.png 
+5048 2372 yimg_04.png 
+2772 2364 zimg_13.png 
+```
+
+```
+Width Height image_name
+2060 720 img_11.png
+988 716 img_02_1.png
+984 704 img_02_0.png
+```
+
+Replicate does upscale the images from zip folder as they state in the docs but i wanted to create a good dataset for future trainings and to see if it makes any difference in the model performance.
+
+The dataset now has 40 images with a zip file size of 102.1MB. For comparison the v1 dataset had 44 images with a zip file size of 9.9MB.
 
 ## Credits/License
 
-This is purely a personal project and is not intended for commercial use. All the images are from the [source](https://bapuartcollection.com/) and are used for educational purposes only.
+This is purely a personal project and is not intended for commercial use. All the images are from the [source](https://bapuartcollection.com/) and can only be used for personal and non-commercial purposes.
