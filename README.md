@@ -58,6 +58,8 @@ The git repo contains a zip file in `replicate/trained_models/` for the latest m
 
 You can also soon generate images using the model directly on [Replicate.com](https://replicate.com/vkolagotla/bapubomma_ai/versions/b6f5a122638ad602aad03838b2f186222f3e47e8edd282ba8332e7ee653e3e1a) where the model is hosted. You need to signin with github to use the model.
 
+You can read more about the data and model creation on the blog posts about [bapubomma_ai](https://vkolagotla.gitlab.io/blog/tag/bapubomma_ai/).
+
 ## Future work
 
 The main objective of this repo is to **1.** Create a model that can generate images in Bapus style and **2.** Learn more about LoRA as this is my first attempt at fine tuning an image model. So i will try to create a pipeline to automate the process of training and find a way to monitor training process and to find the best models with current data by tweaking the training parameters.
